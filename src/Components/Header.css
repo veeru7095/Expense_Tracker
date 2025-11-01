@@ -1,0 +1,23 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.head_container{
+  height:50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: rgb(79, 79, 218);
+  border: 2px solid grey;
+  position: fixed;
+}
+
+.link,h3{
+  cursor: pointer;
+  margin-left: 4rem;
+  margin-right: 3rem;
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,40 @@
+.Register_container{
+  padding-top: 80px; 
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: gray;
+  min-height: 200;
+  height: 30rem;
+  width: 50%;
+  margin-left: 25rem;
+  border-radius: 20px;
+
+}
+.Register_container label{
+  display: block;
+  align-items: start;
+  text-align: start;
+  margin: 20px;
+  margin-left: 150px;
+
+}
+.Register_container label input{
+  display: block;
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  padding: 5px;
+}
+.btn{
+  background-color: green;
+  height: 2rem;
+  width: 20%;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+
+}
+.btn:hover{
+  opacity: 0.5;
+}

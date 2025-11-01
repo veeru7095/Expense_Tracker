@@ -1,0 +1,47 @@
+.GetAllTasksContainer{
+  padding-bottom: 20px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  display: block;
+  margin-left: 1rem;
+
+}
+.GetAllTasksContainer thead th
+{
+  border: 2px solid grey;
+  width: 180px;
+  background-color: skyblue;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 5rem;
+
+}
+.GetAllTasksContainer tbody td{
+  border: 2px solid grey;
+  background-color: grey;
+  height: 40px;
+    border-radius: 5px;
+}
+.updateBtn,.deleteBtn{
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+}
+.updateBtn{
+  background-color: yellow;
+}
+.deleteBtn{
+  background-color: red;
+}
+.deleteBtn:hover,.updateBtn:hover{
+  opacity: 0.5;
+}
+.GetAllTasksContainer h2{
+  display: block;
+  color: gray;
+  font-weight: 500;
+}

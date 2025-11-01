@@ -1,0 +1,37 @@
+.login_container{
+    padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: gray;
+  min-height: 100px;
+  height: 30rem;
+  width: 50%;
+ margin-left: 20rem;
+
+}
+
+.login_container label{
+  display: block;
+  text-align: start;
+  margin-left: 60px;
+  margin-top: 40px;
+  
+
+}
+.login_container label input{
+  display: block;
+  width: 80%;
+  height: 30px;
+  border-radius: 1rem;
+  border: 2px solid grey;
+}
+.login-btn{
+  background-color: green;
+  height: 40px;
+  margin: 30px;
+  padding: 10px;
+  width: 7rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
